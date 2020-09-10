@@ -28,19 +28,19 @@ public class WeatherReportPage extends BasePage {
 
     public void iVerifyEneteredCityOnWeatherPage(String city) throws InterruptedException {
         waitForPageLoad();
-        waitFor(10000);
+        waitFor(4000);
         waitForElement(getLblPinYourCity());
         enterText(getInpSearchBox(), city);
         Actions act = new Actions(this.driver);
         act.sendKeys(Keys.ENTER).build().perform();
-        waitFor(20000);
+        waitFor(4000);
         if(driver.findElement(By.xpath("//input[@type='checkbox'][@id='"+city+"']")).isSelected()) {
             Assert.assertTrue(driver.findElement(By.xpath("//div[text()='" + city + "']")).isDisplayed());
         }else {
             click(driver.findElement(By.xpath("//input[@type='checkbox'][@id='" + city + "']")));
             Assert.assertTrue(driver.findElement(By.xpath("//div[text()='" + city + "']")).isDisplayed());
         }
-        txtTempInCelcius = driver.findElement(By.xpath("//div[text()="+city+"]/preceding-sibling::div/span[@class='tempRedText']")).getText();
-        txtTempInfarenheit = driver.findElement(By.xpath("//div[text()="+city+"]/preceding-sibling::div/span[@class='tempWhiteText']")).getText();
+        txtTempInCelcius = driver.findElement(By.xpath("//div[text()='"+city+"']/preceding-sibling::div/span[@class='tempRedText']")).getText();
+        txtTempInfarenheit = driver.findElement(By.xpath("//div[text()='"+city+"']/preceding-sibling::div/span[@class='tempWhiteText']")).getText();
     }
 }
