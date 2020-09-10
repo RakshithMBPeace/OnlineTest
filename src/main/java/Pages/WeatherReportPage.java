@@ -12,6 +12,8 @@ import org.testng.log4testng.Logger;
 
 public class WeatherReportPage extends BasePage {
     public static final Logger logger = Logger.getLogger(WeatherReportPage.class);
+    public static String txtTempInCelcius;
+    public static String txtTempInfarenheit;
     public WebDriver driver;
     public WeatherReportPage(WebDriver driver){
         super(driver);
@@ -38,5 +40,7 @@ public class WeatherReportPage extends BasePage {
             click(driver.findElement(By.xpath("//input[@type='checkbox'][@id='" + city + "']")));
             Assert.assertTrue(driver.findElement(By.xpath("//div[text()='" + city + "']")).isDisplayed());
         }
+        txtTempInCelcius = driver.findElement(By.xpath("//div[text()="+city+"]/preceding-sibling::div/span[@class='tempRedText']")).getText();
+        txtTempInfarenheit = driver.findElement(By.xpath("//div[text()="+city+"]/preceding-sibling::div/span[@class='tempWhiteText']")).getText();
     }
 }

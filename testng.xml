@@ -4,9 +4,15 @@
     <listeners>
         <listener class-name="listeners.extent.ExtentReportListener"></listener>
     </listeners>
-    <test name="test" >
+    <test name="UItests" >
         <classes>
-            <class name="test.NDTVtest"/>
+            <class name="tests.UITests.NDTVtest"/>
+            <class name="tests.APITests.WeatherTest"/>
         </classes>
     </test>
+<!--    <test name="APItests" >-->
+<!--        <classes>-->
+<!--           -->
+<!--        </classes>-->
+<!--    </test>-->
 </suite>

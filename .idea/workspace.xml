@@ -1,13 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8af246f6-a7b1-4b1f-af57-4ffc03b3cdb1" name="Default Changelist" comment="" />
+    <list default="true" id="8af246f6-a7b1-4b1f-af57-4ffc03b3cdb1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/APITests/WeatherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Core/BaseAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Core/BaseAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/WeatherReportPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/WeatherReportPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/NDTVtest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/UITests/NDTVtest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Core/BaseAPI$logFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Core/BaseAPI$logFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Core/BaseAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Core/BaseAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/NDTVtest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1hH4m2FECbklAobyttm312keOkI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,7 +41,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -26,7 +57,7 @@
       <recent name="D:\volume\src\main\java\listeners\extent" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/volume/TestVagOnlineTest/testng.xml">
+  <component name="RunManager" selected="TestNG.WeatherTest">
     <configuration name="D:/volume/TestVagOnlineTest/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestVagOnlineTest" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -37,20 +68,131 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/volume/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestVagOnlineProject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+    <configuration name="WeatherTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestVagOnlineTest" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.APITests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="tests.APITests" />
+      <option name="MAIN_CLASS_NAME" value="tests.APITests.WeatherTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WeatherTest.testWeatherUsingCityName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestVagOnlineTest" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.APITests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="tests.APITests" />
+      <option name="MAIN_CLASS_NAME" value="tests.APITests.WeatherTest" />
+      <option name="METHOD_NAME" value="testWeatherUsingCityName" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherTest.testWeatherUsingCityNameStateCode" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestVagOnlineTest" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.APITests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="tests.APITests" />
+      <option name="MAIN_CLASS_NAME" value="tests.APITests.WeatherTest" />
+      <option name="METHOD_NAME" value="testWeatherUsingCityNameStateCode" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherTest.testWeatherUsingCityNameStateCodeCoutryCode" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestVagOnlineTest" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.APITests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="tests.APITests" />
+      <option name="MAIN_CLASS_NAME" value="tests.APITests.WeatherTest" />
+      <option name="METHOD_NAME" value="testWeatherUsingCityNameStateCodeCoutryCode" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.WeatherTest.testWeatherUsingCityName" />
+      <item itemvalue="TestNG.WeatherTest.testWeatherUsingCityNameStateCode" />
+      <item itemvalue="TestNG.WeatherTest.testWeatherUsingCityNameStateCodeCoutryCode" />
+      <item itemvalue="TestNG.D:/volume/TestVagOnlineTest/testng.xml" />
+      <item itemvalue="TestNG.WeatherTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.WeatherTest" />
         <item itemvalue="TestNG.D:/volume/TestVagOnlineTest/testng.xml" />
-        <item itemvalue="TestNG.D:/volume/testng.xml" />
+        <item itemvalue="TestNG.WeatherTest.testWeatherUsingCityNameStateCodeCoutryCode" />
+        <item itemvalue="TestNG.WeatherTest.testWeatherUsingCityNameStateCode" />
+        <item itemvalue="TestNG.WeatherTest.testWeatherUsingCityName" />
       </list>
     </recent_temporary>
   </component>
@@ -68,6 +210,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#Project_Structure" timestamp="1599673724050">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1599673724050" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599755059000">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1599755059000" />
     <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1599655827688">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -76,25 +226,33 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1599656716915" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1599661875163">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1599759459118">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599661875163" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1599661875162">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599759459118" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1599759459118">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599661875162" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1599661875162">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599759459118" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1599759459118">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599661875162" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1599661875162">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599759459118" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1599759459118">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599661875162" />
-    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1599655780959">
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599759459118" />
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1599674285057">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1599655780959" />
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1599674285057" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1599672016365">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599672016365" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1599669693594">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1599669693594" />
   </component>
 </project>

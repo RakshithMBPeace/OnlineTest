@@ -24,8 +24,7 @@ public class BaseAPI {
         private static ResponseSpecification responseSpecification;
         private RequestSpecification requestSpec = (RequestSpecification) RestAssured.given().log().all();
 
-    public BaseAPI(ScenarioContext context) {
-        this.scenarioContext = context;
+    public BaseAPI() {
     }
 
 
@@ -60,9 +59,9 @@ public class BaseAPI {
             return response;
         }
 
-        public Response getAPI(Map<String, String> headerMap, String url) {
+        public Response getAPI(Map<String, String> headerMap, String url, Map<String,?> queryParamMap) {
             logger.info("GET call to URL " + url);
-            Response response = (Response)this.requestSpec.contentType(ContentType.JSON).headers(headerMap).when().get(url, new Object[0]);
+            Response response = (Response)this.requestSpec.contentType(ContentType.JSON).headers(headerMap).queryParams(queryParamMap).when().get(url, new Object[0]);
             logger.info(" **** GET call Response time " + response.timeIn(TimeUnit.MILLISECONDS) + " ms");
             return response;
         }
