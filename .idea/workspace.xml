@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8af246f6-a7b1-4b1f-af57-4ffc03b3cdb1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/WeatherReportPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/WeatherReportPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/APITests/WeatherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/APITests/WeatherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/APITests/WeatherTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/APITests/WeatherTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="TestVagOnlineProject" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -20,6 +25,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1hH4m2FECbklAobyttm312keOkI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -30,7 +42,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/NSVP-11062/xnprestapibdd" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -111,34 +123,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeatherTest.testWeatherUsingCityNameStateCode" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestVagOnlineTest" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.APITests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="tests.APITests" />
-      <option name="MAIN_CLASS_NAME" value="tests.APITests.WeatherTest" />
-      <option name="METHOD_NAME" value="testWeatherUsingCityNameStateCode" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WeatherTest.testWeatherUsingCityNameStateCodeCoutryCode" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestVagOnlineTest" />
       <useClassPathOnly />
@@ -167,22 +151,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WeatherTest.testWeatherValidateUsingTempValuesFromUI" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestVagOnlineTest" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.APITests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="tests.APITests" />
+      <option name="MAIN_CLASS_NAME" value="tests.APITests.WeatherTest" />
+      <option name="METHOD_NAME" value="testWeatherValidateUsingTempValuesFromUI" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="TestNG.WeatherTest.testWeatherUsingCityName" />
-      <item itemvalue="TestNG.WeatherTest.testWeatherUsingCityNameStateCode" />
       <item itemvalue="TestNG.WeatherTest.testWeatherUsingCityNameStateCodeCoutryCode" />
       <item itemvalue="TestNG.D:/volume/TestVagOnlineTest/testng.xml" />
       <item itemvalue="TestNG.WeatherTest" />
+      <item itemvalue="TestNG.WeatherTest.testWeatherUsingCityName" />
+      <item itemvalue="TestNG.WeatherTest.testWeatherValidateUsingTempValuesFromUI" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.D:/volume/TestVagOnlineTest/testng.xml" />
+        <item itemvalue="TestNG.WeatherTest.testWeatherValidateUsingTempValuesFromUI" />
+        <item itemvalue="TestNG.WeatherTest.testWeatherUsingCityName" />
         <item itemvalue="TestNG.WeatherTest" />
         <item itemvalue="TestNG.WeatherTest.testWeatherUsingCityNameStateCodeCoutryCode" />
-        <item itemvalue="TestNG.WeatherTest.testWeatherUsingCityNameStateCode" />
-        <item itemvalue="TestNG.WeatherTest.testWeatherUsingCityName" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -202,34 +226,62 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1599673724050" />
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599755059000">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600103070031">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1599755059000" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1600103070031" />
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1600107071942">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1600107071942" />
     <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1599655827688">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1599655827688" />
+    <state x="384" y="289" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1600100516932">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="384" y="289" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1600100516932" />
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599656716915">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1599656716915" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1599760097896">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1600064942360">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599760097896" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1599760097896">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600064942360" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1600107400586">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599760097896" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1599760097895">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600107400586" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1600107400586">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599760097895" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1599760097896">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600107400586" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1600107400586">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599760097896" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600107400586" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1600107400586">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600107400586" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1600107309996">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600107309996" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1600107309996">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1600107309996" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1600107309996">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1600107309996" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1600107309996">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1600107309996" />
     <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1599674285057">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -242,5 +294,20 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1599669693594" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1600105781503">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1600105781503" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/APITests/WeatherTest.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

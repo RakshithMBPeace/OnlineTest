@@ -3,6 +3,8 @@ package tests.APITests;
 import Core.BaseAPI;
 
 
+import Pages.WeatherReportPage;
+import Utils.Comparator;
 import io.restassured.response.Response;
 import org.json.JSONObject;
 import org.testng.Assert;
@@ -36,12 +38,12 @@ public class WeatherTest extends BaseAPI {
     public String cityID;
     public String longitude;
     public String latitiude;
-
+    public Comparator comparator = new Comparator();
 
 
 
     @Test
-    public void testWeatherUsingCityName(){
+        public void testWeatherUsingCityName(){
         Map<String, String> headerMap=new HashMap<String, String>();
         Map<String, String> queryParams= new HashMap<String, String>();
         queryParams.put("q", cityName);
@@ -119,16 +121,18 @@ public class WeatherTest extends BaseAPI {
     public void testWeatherValidateUsingTempValuesFromUI(){
         Map<String, String> headerMap=new HashMap<String, String>();
         Map<String, String> queryParams= new HashMap<String, String>();
-        queryParams.put("lat", latitiude);
-        queryParams.put("lon", longitude);
+        queryParams.put("q", cityName);
         queryParams.put("appid", appid);
         Response resp = getAPI(headerMap, apiURL, queryParams);
         JSONObject respJson = new JSONObject(resp.asString());
-        System.out.println("peace"+resp.asString());
-        JSONObject coOrd= respJson.getJSONObject("coord");
-        String actLongitude = coOrd.get("lon").toString();
-        String actLatitiude = coOrd.get("lat").toString();
-        Assert.assertEquals(longitude,actLongitude);
-        Assert.assertEquals(latitiude,actLatitiude);
+        JSONObject tempJson = respJson.getJSONObject("main");
+        String tempInAPI = tempJson.get("temp_max").toString();
+        double tempFromAPI = Math.round(Double.parseDouble(tempInAPI));
+        double tempCelsiusFromUI = Math.round(comparator.tempToKelvin(WeatherReportPage.txtTempInCelcius));
+        boolean tempCelsiusInRange = Comparator.betweenExclusive(tempFromAPI,tempCelsiusFromUI-3.00, tempCelsiusFromUI+3.00);
+        double tempFahrenheitFromUI = Math.round(comparator.fahrenheitToKelvin(WeatherReportPage.txtTempInfarenheit));
+        boolean tempFahrenheitInRange = Comparator.betweenExclusive(tempFromAPI,tempFahrenheitFromUI-3.00, tempFahrenheitFromUI+3.00);
+        Assert.assertTrue(tempCelsiusInRange);
+        Assert.assertTrue(tempFahrenheitInRange);
     }
 }
